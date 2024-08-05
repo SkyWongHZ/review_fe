@@ -28,8 +28,16 @@
 
 // console.log(typeof  Symbol('foo'));
 
-const a='ssdfdfdf'
-// console.log(Object.prototype.toString.call(a)==='[object String]');
+// const a='ssdfdfdf'
+// // console.log(Object.prototype.toString.call(a)==='[object String]');
 
-console.log(0.1+0.2);
+// console.log(0.1+0.2);
+
+function f1(){
+    console.log('hello');
+}
+// setTimeout(f1,2000)
+setInterval(() => {
+    console.log('hello');
+}, 2000);
 
